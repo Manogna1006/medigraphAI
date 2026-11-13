@@ -1,0 +1,22 @@
+[
+  {"subject": "Fever", "predicate": "INDICATES", "object": "Influenza", "source": "PMID:31234567", "confidence": 0.82},
+  {"subject": "Fever", "predicate": "INDICATES", "object": "Bacterial Pneumonia", "source": "PMID:29876543", "confidence": 0.71},
+  {"subject": "Cough", "predicate": "INDICATES", "object": "Bacterial Pneumonia", "source": "PMID:29876543", "confidence": 0.75},
+  {"subject": "Cough", "predicate": "INDICATES", "object": "Influenza", "source": "PMID:31234567", "confidence": 0.68},
+  {"subject": "Shortness of Breath", "predicate": "INDICATES", "object": "Bacterial Pneumonia", "source": "PMID:29876543", "confidence": 0.8},
+  {"subject": "Shortness of Breath", "predicate": "INDICATES", "object": "Congestive Heart Failure", "source": "PMID:33456789", "confidence": 0.77},
+  {"subject": "Bacterial Pneumonia", "predicate": "TREATED_BY", "object": "Amoxicillin", "source": "PMID:29876543", "confidence": 0.85},
+  {"subject": "Bacterial Pneumonia", "predicate": "TREATED_BY", "object": "Azithromycin", "source": "PMID:29876543", "confidence": 0.8},
+  {"subject": "Influenza", "predicate": "TREATED_BY", "object": "Oseltamivir", "source": "PMID:31234567", "confidence": 0.79},
+  {"subject": "Congestive Heart Failure", "predicate": "TREATED_BY", "object": "Furosemide", "source": "PMID:33456789", "confidence": 0.83},
+  {"subject": "Chest Pain", "predicate": "INDICATES", "object": "Myocardial Infarction", "source": "PMID:35678901", "confidence": 0.9},
+  {"subject": "Myocardial Infarction", "predicate": "TREATED_BY", "object": "Aspirin", "source": "PMID:35678901", "confidence": 0.88},
+  {"subject": "Myocardial Infarction", "predicate": "REQUIRES", "object": "Emergency Cardiac Catheterization", "source": "PMID:35678901", "confidence": 0.86},
+  {"subject": "Elevated Blood Glucose", "predicate": "INDICATES", "object": "Type 2 Diabetes Mellitus", "source": "PMID:30112233", "confidence": 0.87},
+  {"subject": "Type 2 Diabetes Mellitus", "predicate": "TREATED_BY", "object": "Metformin", "source": "PMID:30112233", "confidence": 0.9},
+  {"subject": "Headache", "predicate": "INDICATES", "object": "Migraine", "source": "PMID:32233445", "confidence": 0.6},
+  {"subject": "Migraine", "predicate": "TREATED_BY", "object": "Sumatriptan", "source": "PMID:32233445", "confidence": 0.74},
+  {"subject": "Joint Pain", "predicate": "INDICATES", "object": "Rheumatoid Arthritis", "source": "PMID:34445566", "confidence": 0.65},
+  {"subject": "Rheumatoid Arthritis", "predicate": "TREATED_BY", "object": "Methotrexate", "source": "PMID:34445566", "confidence": 0.78},
+  {"subject": "Amoxicillin", "predicate": "CONTRAINDICATED_WITH", "object": "Penicillin Allergy", "source": "PMID:29999999", "confidence": 0.95}
+]
